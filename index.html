@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -41,54 +41,28 @@
 
     <main id="contenido">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-grid" aria-hidden="true"></div>
-        <div class="hero-stamp fade-in" aria-hidden="true">
-          <span>Compramos</span>
-          <strong>En el estado<br>que esté</strong>
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero-auto.png" alt="" width="2000" height="1400">
         </div>
 
         <div class="hero-content">
-          <p class="eyebrow fade-in"><span></span> Compra directa de vehículos</p>
-          <h1 id="hero-title" class="fade-in">Tu auto complicado<br>tiene una <em>salida.</em></h1>
-          <p class="hero-copy fade-in">
-            Compramos vehículos <strong>chocados, con deudas o fuera de uso</strong>.
-            Evaluamos tu caso y te damos una propuesta concreta, sin vueltas.
-          </p>
+          <h1 id="hero-title" class="fade-in">Compramos todo<br>tipo de autos.<br><em>Compramos hoy.</em></h1>
           <div class="hero-actions fade-in">
             <a class="button button-primary js-whatsapp" href="https://wa.me/?text=Hola%20BG%20Automotores%2C%20quiero%20consultar%20por%20mi%20veh%C3%ADculo" target="_blank" rel="noopener noreferrer">
               <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-              Contanos tu caso
+              Cotizá tu auto
             </a>
-            <a class="button button-ghost" href="#como-funciona">Ver cómo funciona</a>
-          </div>
-        </div>
-
-        <div class="hero-visual fade-in" aria-hidden="true">
-          <span class="visual-index">01—04</span>
-          <svg class="car-drawing" viewBox="0 0 720 320" role="presentation">
-            <path class="car-shadow" d="M70 247H648"></path>
-            <path class="car-line" d="M61 210c14-31 31-52 60-65l97-20 57-66h204l92 92 78 23 23 36v37h-58"></path>
-            <path class="car-line" d="M535 247H206"></path>
-            <path class="car-line" d="M119 247H61v-37"></path>
-            <path class="car-line" d="M229 125h284"></path>
-            <path class="car-line" d="M275 59v66"></path>
-            <path class="car-line" d="M453 59l60 66"></path>
-            <path class="car-line detail" d="M76 196h55l23-42"></path>
-            <path class="car-line detail" d="M568 151l-31 28h91"></path>
-            <circle class="wheel" cx="163" cy="246" r="48"></circle>
-            <circle class="wheel-center" cx="163" cy="246" r="17"></circle>
-            <circle class="wheel" cx="579" cy="246" r="48"></circle>
-            <circle class="wheel-center" cx="579" cy="246" r="17"></circle>
-          </svg>
-          <div class="visual-note">
-            <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
-            <span>No importa cómo llegó hasta acá.<br><strong>Importa cómo lo resolvemos.</strong></span>
           </div>
         </div>
 
         <div class="hero-ticker" aria-label="Tipos de vehículos que compramos">
           <div class="ticker-track">
-            <span>Autos</span><i></i><span>Camionetas</span><i></i><span>Utilitarios</span><i></i><span>Furgones</span><i></i><span>Autos</span><i></i><span>Camionetas</span><i></i><span>Utilitarios</span><i></i><span>Furgones</span><i></i>
+            <div class="ticker-group">
+              <span>Autos</span><b>•</b><span>Camionetas</span><b>•</b><span>Utilitarios</span><b>•</b><span>Furgones</span><b>•</b><span>Chocados</span><b>•</b><span>Con deudas</span><b>•</b>
+            </div>
+            <div class="ticker-group" aria-hidden="true">
+              <span>Autos</span><b>•</b><span>Camionetas</span><b>•</b><span>Utilitarios</span><b>•</b><span>Furgones</span><b>•</b><span>Chocados</span><b>•</b><span>Con deudas</span><b>•</b>
+            </div>
           </div>
         </div>
       </section>
@@ -96,41 +70,57 @@
       <section class="intro section-pad" id="que-compramos" aria-labelledby="intro-title">
         <div class="section-label fade-in"><span>01</span> Qué compramos</div>
         <div class="intro-copy">
-          <h2 id="intro-title" class="fade-in">Si para otros es un problema,<br><em>para nosotros es un vehículo.</em></h2>
-          <p class="fade-in">Analizamos cada unidad por lo que es, no por lo difícil que parezca venderla. Autos, camionetas y utilitarios nacionales o importados.</p>
+          <h2 id="intro-title" class="fade-in">Compramos tu auto.<br><em>Como esté.</em></h2>
+          <p class="fade-in">De cualquier marca y modelo. Autos, camionetas, utilitarios y furgones, nacionales o importados.</p>
         </div>
 
         <div class="condition-grid">
           <article class="condition-card condition-featured fade-in">
-            <span class="card-number">01</span>
-            <div class="card-icon"><i class="fa-solid fa-car-burst" aria-hidden="true"></i></div>
-            <h3>Chocados</h3>
-            <p>Con daños leves o importantes, abollados, volcados o fuera de uso.</p>
-            <span class="card-tag">Evaluamos el estado real</span>
+            <div class="card-photo">
+              <img src="assets/auto-chocado.png" alt="Auto antiguo con daños importantes en la carrocería" width="1200" height="900" loading="lazy">
+              <span class="card-number">01</span>
+            </div>
+            <div class="card-body">
+              <h3>Chocados</h3>
+              <p>Con daños leves o importantes, abollados o volcados.</p>
+              <span class="card-tag">Evaluamos el estado real</span>
+            </div>
           </article>
 
           <article class="condition-card fade-in">
-            <span class="card-number">02</span>
-            <div class="card-icon"><i class="fa-solid fa-file-invoice-dollar" aria-hidden="true"></i></div>
-            <h3>Con deudas</h3>
-            <p>Patentes, multas, prendas u otras situaciones administrativas pendientes.</p>
-            <span class="card-tag">Revisamos la situación</span>
+            <div class="card-photo">
+              <img src="assets/auto-deuda.png" alt="Aviso de deuda colocado sobre el parabrisas de un auto" width="1200" height="900" loading="lazy">
+              <span class="card-number">02</span>
+            </div>
+            <div class="card-body">
+              <h3>Con deudas</h3>
+              <p>Con patentes, multas, prendas u otras situaciones pendientes.</p>
+              <span class="card-tag">Revisamos la situación</span>
+            </div>
           </article>
 
           <article class="condition-card fade-in">
-            <span class="card-number">03</span>
-            <div class="card-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
-            <h3>Con fallas</h3>
-            <p>Con problemas mecánicos, motor averiado, piezas faltantes o sin funcionar.</p>
-            <span class="card-tag">Sin necesidad de arreglarlo</span>
+            <div class="card-photo">
+              <img src="assets/auto-taller.png" alt="Mecánico revisando el motor de un auto en un taller" width="1200" height="900" loading="lazy">
+              <span class="card-number">03</span>
+            </div>
+            <div class="card-body">
+              <h3>Con fallas</h3>
+              <p>Con motor averiado, piezas faltantes o sin funcionar.</p>
+              <span class="card-tag">Sin necesidad de arreglarlo</span>
+            </div>
           </article>
 
           <article class="condition-card fade-in">
-            <span class="card-number">04</span>
-            <div class="card-icon"><i class="fa-solid fa-water" aria-hidden="true"></i></div>
-            <h3>Casos especiales</h3>
-            <p>Inundados, incendiados, vandalizados o vehículos detenidos hace tiempo.</p>
-            <span class="card-tag">Consultanos igual</span>
+            <div class="card-photo">
+              <img src="assets/auto-abandonado.png" alt="Auto antiguo abandonado y deteriorado" width="1200" height="900" loading="lazy">
+              <span class="card-number">04</span>
+            </div>
+            <div class="card-body">
+              <h3>Fuera de uso</h3>
+              <p>Inundados, vandalizados o detenidos hace mucho tiempo.</p>
+              <span class="card-tag">Consultanos igual</span>
+            </div>
           </article>
         </div>
       </section>
@@ -138,14 +128,13 @@
       <section class="process section-pad" id="como-funciona" aria-labelledby="process-title">
         <div class="section-label section-label-light fade-in"><span>02</span> Cómo funciona</div>
         <div class="process-heading">
-          <h2 id="process-title" class="fade-in">Simple, claro<br>y sin <em>vueltas.</em></h2>
-          <p class="fade-in">No necesitás publicar, arreglar el auto ni explicar tu situación veinte veces. Empezamos con una charla breve.</p>
+          <h2 id="process-title" class="fade-in">Mandanos fotos.<br><em>Recibí una propuesta.</em></h2>
+          <p class="fade-in">No necesitás publicar ni arreglar el auto. Empezamos con una consulta rápida por WhatsApp.</p>
         </div>
 
         <ol class="steps-list">
           <li class="step fade-in">
             <span class="step-index">01</span>
-            <div class="step-icon"><i class="fa-regular fa-comments" aria-hidden="true"></i></div>
             <div>
               <h3>Nos contás tu caso</h3>
               <p>Mandanos marca, modelo, año, ubicación y algunas fotos por WhatsApp.</p>
@@ -153,7 +142,6 @@
           </li>
           <li class="step fade-in">
             <span class="step-index">02</span>
-            <div class="step-icon"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i></div>
             <div>
               <h3>Evaluamos la unidad</h3>
               <p>Revisamos el estado del vehículo y su situación documental.</p>
@@ -161,7 +149,6 @@
           </li>
           <li class="step fade-in">
             <span class="step-index">03</span>
-            <div class="step-icon"><i class="fa-solid fa-handshake" aria-hidden="true"></i></div>
             <div>
               <h3>Te hacemos una propuesta</h3>
               <p>Si estamos de acuerdo, coordinamos la operación y la gestión correspondiente.</p>
@@ -171,23 +158,19 @@
       </section>
 
       <section class="difference section-pad" aria-labelledby="difference-title">
-        <div class="difference-mark fade-in" aria-hidden="true">BG</div>
         <div class="section-label fade-in"><span>03</span> Nuestra forma</div>
         <div class="difference-grid">
           <div>
-            <h2 id="difference-title" class="fade-in">Un problema menos.<br><em>Una salida concreta.</em></h2>
+            <h2 id="difference-title" class="fade-in">Vendelo sin arreglarlo.<br><em>Nosotros resolvemos.</em></h2>
           </div>
           <div class="difference-points">
             <article class="point fade-in">
-              <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i>
               <div><h3>Evaluación honesta</h3><p>Miramos el vehículo y la documentación para darte una respuesta realista.</p></div>
             </article>
             <article class="point fade-in">
-              <i class="fa-solid fa-folder-open" aria-hidden="true"></i>
               <div><h3>Gestión ordenada</h3><p>Te explicamos qué documentación hace falta y cómo se resuelve cada paso.</p></div>
             </article>
             <article class="point fade-in">
-              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
               <div><h3>Coordinación directa</h3><p>Acordamos la revisión y el retiro según el estado y ubicación de la unidad.</p></div>
             </article>
           </div>
@@ -198,8 +181,8 @@
         <div class="section-label fade-in"><span>04</span> Preguntas frecuentes</div>
         <div class="faq-grid">
           <div class="faq-heading">
-            <h2 id="faq-title" class="fade-in">Antes de<br>escribirnos.</h2>
-            <p class="fade-in">Las dudas más comunes, respondidas de frente.</p>
+            <h2 id="faq-title" class="fade-in">Lo que necesitás<br>saber.</h2>
+            <p class="fade-in">Respuestas rápidas antes de cotizar tu auto.</p>
           </div>
           <div class="accordion">
             <details class="faq-item fade-in">
@@ -223,10 +206,9 @@
       </section>
 
       <section class="closing section-pad" aria-labelledby="closing-title">
-        <div class="closing-noise" aria-hidden="true"></div>
         <p class="eyebrow eyebrow-dark fade-in"><span></span> Empezá por una consulta</p>
-        <h2 id="closing-title" class="fade-in">Ese auto que te complica,<br><em>puede dejar de hacerlo hoy.</em></h2>
-        <p class="closing-copy fade-in">Mandanos la información básica. Te respondemos con claridad y vemos si podemos resolverlo.</p>
+        <h2 id="closing-title" class="fade-in">¿Querés venderlo hoy?<br><em>Escribinos ahora.</em></h2>
+        <p class="closing-copy fade-in">Marca, modelo, año y algunas fotos. Con eso empezamos.</p>
         <a class="button button-dark js-whatsapp fade-in" href="https://wa.me/?text=Hola%20BG%20Automotores%2C%20quiero%20consultar%20por%20mi%20veh%C3%ADculo" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
           Hablar por WhatsApp
@@ -257,6 +239,6 @@
       <span>Consultar</span>
     </a>
 
-    <script src="main.js"></script>
+    <script src="main.js?v=2"></script>
   </body>
 </html>
