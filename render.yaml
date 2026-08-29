@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bg-automotores
+    name: bj-automotores
     runtime: static
     staticPublishPath: .
     pullRequestPreviewsEnabled: false
